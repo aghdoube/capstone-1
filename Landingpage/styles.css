@@ -1,27 +1,26 @@
-/* Add a background image to the entire body */
+
 body {
-    background-image: url('./codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Replace with your image path */
-    background-size: cover;  /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the image fixed when scrolling */
-    min-height: 100vh; /* Ensures the body covers the full viewport height */
+    background-image: url('./codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); 
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
 }
 
-/* Optional: Ensure the hero section and other content are visible */
+
 .hero {
-    position: relative; /* Ensures the hero sits above the background */
-    z-index: 1; /* Stacks the hero above the background */
+    position: relative; 
+    z-index: 1; 
 }
 
 header, nav, section, footer {
     position: relative;
-    z-index: 1; /* Ensure all main sections are visible above the background */
+    z-index: 1; 
 }
 
-/* Ensure proper padding so content is not hidden under the fixed navbar */
 body {
-    padding-top: 70px; /* Adjust this value based on your navbar height */
+    padding-top: 70px; 
 }
 .row {
     background-color: white;
@@ -31,11 +30,11 @@ body {
 
 
 .projects img {
-    width: 140px;  /* Set the desired size */
-    height: 140px; /* Ensure the image stays square */
-    object-fit: cover; /* Ensures the image covers the entire container without distortion */
-    border-radius: 50%; /* Makes the image a perfect circle */
-    display: block; /* Optional: Ensures no extra spacing around the image */
+    width: 140px;  
+    height: 140px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block; 
 }
 .projects {
     width: auto;
