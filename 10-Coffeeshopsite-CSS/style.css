@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('../Landingpage/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Use your desired image URL */
+    background-image: url('../codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Use your desired image URL */
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the image */
     background-repeat: repeat; /* Prevent repeating of the image */
@@ -53,19 +53,20 @@ header a:hover {
     color: blue !important ;
 }
 
-section h1 {
+ .hero h1 {
     text-align: center;
     padding-bottom: 20px;
-    
+    font-family: modern;
     font-size: 40px;
     color: aliceblue;
-    text-decoration: underline;
+    text-decoration: none;
 }
-section h2 {
+ .hero h2 {
     text-align: center;
     color: aliceblue;
     font-size: 35px;
     padding-top: 40px;
+    font-family: modern;
 }
 section form {
     text-align: center;
@@ -73,24 +74,27 @@ section form {
 section div form input {
     width: 200px;
     margin-bottom: 10px;
-    background-color: #b0a49c;
+    background-color: aliceblue;
+    font-family: modern;
 }
 section div form textarea {
     width: 200px;
     margin-bottom: 10px;
-    background-color: #b0a49c;
+    background-color: aliceblue;
+    font-family: modern;
 }
 
 section div form button {
     border-radius: 20%;
     color: black;
-    background-color: #b0a49c; 
+    background-color: aliceblue; 
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin-bottom: 50px;
+    font-family: modern;
 }
 section img {
     display: block;
@@ -101,25 +105,21 @@ section img {
     padding-bottom: 50px;
     padding-top: 30px;
 }
-section div h3 {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 20px;
-    color: #E7D4B5;
-}
 
-main {
+
+.hero1 {
     margin-bottom: 50px;
 }
-main h1 {
+.hero1 h1 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 40px;
     font-size: 40px;
-    color: #E7D4B5;
+    color: aliceblue;
+    font-family: modern;
 }
 
-main div p {
+.hero1 p {
     text-align: justify;
     padding-left:20%;
     padding-right: 20%;
@@ -127,9 +127,10 @@ main div p {
     font-size: 25px;
     display: block;
     letter-spacing: 0.5px;
-    color: #E7D4B5;
+    color: aliceblue;
+    font-family: modern;
 }
-main div img {
+.hero1 div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -138,4 +139,18 @@ main div img {
     padding-bottom: 50px;
     padding-top: 30px;
 }
-
+.contact-first  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: modern;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact-first h3 {
+    font-family: modern;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}

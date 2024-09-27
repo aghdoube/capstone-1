@@ -1,15 +1,15 @@
-/* Apply a background image to the entire page */
+
 body {
-    background-image: url('../Landingpage/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Replace with your background image filename */
+    background-image: url('../codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Replace with your background image filename */
     background-size: cover;
     background-position: center;
-    font-family: Arial, sans-serif;
+    font-family: modern;
     color: white;
     margin: 0;
     padding: 0;
 }
 
-/* Header styling */
+
 header {
     display: flex;
     justify-content: center;
@@ -48,11 +48,11 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Limit maximum width for the header */
+    max-width: 1200px; 
     padding-right: 150px;
 }
 
-/* Align h1 and h2 vertically in the middle */
+
 .header-text {
     text-align: center;
     flex: 1;
@@ -76,12 +76,12 @@ h2 {
 
 }
 p {
-    font-family: script;
+    font-family: modern;
     letter-spacing: 0.5px;
     font-size: 19px;
 }
 li {
-    font-family: script;
+    font-family: modern;
     font-size: 19px;
 }
 h4 {
@@ -89,7 +89,7 @@ h4 {
     font-family: modern;
     padding-bottom: 10px;
 }
-/* Center image vertically and apply circular shape */
+
 .profile-img {
     width: 200px;
     height: 200px;
@@ -99,46 +99,46 @@ h4 {
     display: block;
 
     max-width: 100%;
-    aspect-ratio: 1/1; /* Ensures the image maintains its square shape */
+    aspect-ratio: 1/1; 
 }
 
-/* Contact Section */
+
 .contact {
     padding: 20px;
     text-align: left;
 }
 
-/* Profile Section */
+
 .profile {
     padding: 20px;
     text-align: left;
 }
 
-/* Experience Section */
+
 .experience {
     padding: 20px;
     text-align: left;
 }
 
-/* Skills Section */
+
 .skills {
     padding: 20px;
     text-align: left;
 }
 
-/* Certificates Section */
+
 .certificates {
     padding: 20px;
     text-align: left;
 }
 
-/* References Section */
+
 .references {
     padding: 20px;
     text-align: left;
 }
 
-/* Footer styling */
+
 footer {
     text-align: right;
     padding: 20px;
@@ -149,19 +149,19 @@ footer {
 
 /* For tablets and smaller screens (768px and below) */
 @media (max-width: 768px) {
-    /* Stack header elements vertically */
+
     .header-container {
         flex-direction: column;
         text-align: center;
     }
 
-    /* Reduce image size for smaller screens */
+
     .profile-img {
         width: 120px;
         height: 120px;
     }
 
-    /* Reduce padding in sections */
+
     .contact, .profile, .experience, .skills, .certificates, .references {
         padding: 10px;
     }
@@ -177,13 +177,13 @@ footer {
 
 /* For small mobile screens (480px and below) */
 @media (max-width: 480px) {
-    /* Further reduce image size */
+
     .profile-img {
         width: 100px;
         height: 100px;
     }
 
-    /* Ensure header text fits smaller screens */
+ 
     h1 {
         font-size: 1.5em;
     }
@@ -192,7 +192,7 @@ footer {
         font-size: 1em;
     }
 
-    /* Make padding even smaller for mobile */
+
     .contact, .profile, .experience, .skills, .certificates, .references {
         padding: 5px;
     }
