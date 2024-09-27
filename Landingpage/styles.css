@@ -1,0 +1,60 @@
+
+body {
+    background-image: url('./codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); 
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+}
+img {
+  border-radius: 10px !important;
+  width: 100px !important;
+}
+
+
+
+.hero {
+    position: relative; 
+    z-index: 1; 
+}
+
+header, nav, section, footer {
+    position: relative;
+    z-index: 1; 
+}
+
+body {
+    padding-top: 70px; 
+}
+.row {
+    background-color: white;
+
+}
+
+
+
+.projects img {
+    width: 140px;  
+    height: 140px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block; 
+}
+.projects {
+    width: auto;
+
+}
+.display-4 h1 {
+    font-family: modern;
+    font-size: 70px;
+}
+.col-lg-4 h2 {
+    font-family: modern;
+}
+.col-lg-4 p {
+    font-family: modern;
+}
+.col-lg-4 a{
+    font-family: modern;
+}
