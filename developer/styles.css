@@ -58,10 +58,10 @@ main {
 h2 {
     color: rgb(23, 35, 159); /* Bright red color for section headings */
     margin-bottom: 10px; /* Space below headings */
-    font-family: script;
+    font-family: modern;
 }
 h3{
-    font-family: script;
+    font-family: modern;
 }
 article {
     margin-bottom: 15px; 
@@ -70,13 +70,13 @@ article {
 ul {
     list-style-type: square; /* Square bullets for lists */
     margin-left: 20px; /* Left margin for lists */
-    font-family: script;
+    font-family: modern;
 }
 
 a {
     color: #007BFF; /* Link color */
     text-decoration: none; /* Remove underline */
-    font-family: script;
+    font-family: modern;
 }
 
 a:hover {
