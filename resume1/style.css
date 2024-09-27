@@ -1,0 +1,199 @@
+/* Apply a background image to the entire page */
+body {
+    background-image: url('../Landingpage/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Replace with your background image filename */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+}
+.content-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin: 40px auto; /* Center box horizontally */
+    max-width: 900px; /* Limit the box width */
+    text-align: left;
+}
+
+.container-all {
+    color: aliceblue;
+    margin: 0 200px;
+}
+
+.container-all h3 {
+    font-family: modern;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limit maximum width for the header */
+    padding-right: 150px;
+}
+
+/* Align h1 and h2 vertically in the middle */
+.header-text {
+    text-align: center;
+    flex: 1;
+    padding-left: 50px;
+}
+hr {
+    border: 4px solid black;
+}
+
+.container-all h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-family: modern;
+    font-weight: bold;
+}
+h2 {
+    font-family: modern;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+p {
+    font-family: script;
+    letter-spacing: 0.5px;
+    font-size: 19px;
+}
+li {
+    font-family: script;
+    font-size: 19px;
+}
+h4 {
+    font-size: 19px;
+    font-family: modern;
+    padding-bottom: 10px;
+}
+/* Center image vertically and apply circular shape */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+
+    max-width: 100%;
+    aspect-ratio: 1/1; /* Ensures the image maintains its square shape */
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Profile Section */
+.profile {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Experience Section */
+.experience {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Certificates Section */
+.certificates {
+    padding: 20px;
+    text-align: left;
+}
+
+/* References Section */
+.references {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Footer styling */
+footer {
+    text-align: right;
+    padding: 20px;
+
+}
+
+/* MEDIA QUERIES */
+
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+    /* Stack header elements vertically */
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Reduce image size for smaller screens */
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Reduce padding in sections */
+    .contact, .profile, .experience, .skills, .certificates, .references {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+/* For small mobile screens (480px and below) */
+@media (max-width: 480px) {
+    /* Further reduce image size */
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Ensure header text fits smaller screens */
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    /* Make padding even smaller for mobile */
+    .contact, .profile, .experience, .skills, .certificates, .references {
+        padding: 5px;
+    }
+}

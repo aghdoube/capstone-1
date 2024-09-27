@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../Landingpage/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Use your desired image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Prevent repeating of the image */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+
+.contact-first {
+    margin-top: 40px;
+}
+.contact-first h3 {
+    color: aliceblue;
+}
+.contact-first #username {
+    background-color: aliceblue;
+}
+.contact-first #email {
+    background-color: aliceblue;
+}
+.contact-first #Message {
+    background-color: aliceblue;
+}
+.contact-first button{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Adjust the value as needed */
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue !important;
+    text-decoration: none;
+}
+header {
+    text-align: right;
+    border-bottom: 5px solid al#508C9B;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+header a:hover {
+    color: blue !important ;
+}
+
+section h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+section h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    padding-top: 40px;
+}
+section form {
+    text-align: center;
+}
+section div form input {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #b0a49c;
+}
+section div form textarea {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #b0a49c;
+}
+
+section div form button {
+    border-radius: 20%;
+    color: black;
+    background-color: #b0a49c; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px ;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+section div h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #E7D4B5;
+}
+
+main {
+    margin-bottom: 50px;
+}
+main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #E7D4B5;
+}
+
+main div p {
+    text-align: justify;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    display: block;
+    letter-spacing: 0.5px;
+    color: #E7D4B5;
+}
+main div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px ;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+

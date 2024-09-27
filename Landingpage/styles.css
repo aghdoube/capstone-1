@@ -1,0 +1,56 @@
+/* Add a background image to the entire body */
+body {
+    background-image: url('./codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg'); /* Replace with your image path */
+    background-size: cover;  /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    min-height: 100vh; /* Ensures the body covers the full viewport height */
+}
+
+/* Optional: Ensure the hero section and other content are visible */
+.hero {
+    position: relative; /* Ensures the hero sits above the background */
+    z-index: 1; /* Stacks the hero above the background */
+}
+
+header, nav, section, footer {
+    position: relative;
+    z-index: 1; /* Ensure all main sections are visible above the background */
+}
+
+/* Ensure proper padding so content is not hidden under the fixed navbar */
+body {
+    padding-top: 70px; /* Adjust this value based on your navbar height */
+}
+.row {
+    background-color: white;
+
+}
+
+
+
+.projects img {
+    width: 140px;  /* Set the desired size */
+    height: 140px; /* Ensure the image stays square */
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+    border-radius: 50%; /* Makes the image a perfect circle */
+    display: block; /* Optional: Ensures no extra spacing around the image */
+}
+.projects {
+    width: auto;
+
+}
+.display-4 h1 {
+    font-family: modern;
+    font-size: 70px;
+}
+.col-lg-4 h2 {
+    font-family: modern;
+}
+.col-lg-4 p {
+    font-family: script;
+}
+.col-lg-4 a{
+    font-family: script;
+}
