@@ -52,7 +52,7 @@ body {
         display: flex;
         justify-content: center; /* Center horizontally */
         align-items: center;    /* Center vertically */
-        flex-wrap: wrap;        /* Allows items to wrap */
+        flex-wrap: nowrap;        /* Allows items to wrap */
     }
 
 }
