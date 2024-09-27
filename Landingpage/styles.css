@@ -7,6 +7,11 @@ body {
     background-attachment: fixed; 
     min-height: 100vh; 
 }
+img {
+  border-radius: 10px !important;
+  width: 100px !important;
+}
+
 
 
 .hero {
